@@ -1,0 +1,10 @@
+--<ScriptOptions statementTerminator=";"/>
+
+CREATE TABLE MAPTABLE (
+	ID INT NOT NULL,
+	NAME VARCHAR(200),
+	X INT NOT NULL,
+	Y INT NOT NULL,
+	PRIMARY KEY (ID)
+) ENGINE=InnoDB;
+
